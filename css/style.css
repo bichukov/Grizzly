@@ -9,3 +9,153 @@ display:flex;
     margin-bottom: 5px;
 
 }
+.hq{
+    margin-left: 340px;
+    margin-bottom: 48px;
+    Width:  600px;
+    Height: 52px;
+
+
+}
+.block{
+    margin-right: 20px;
+    width: 295px;
+    height: 289px;
+    margin-bottom: 20px;
+    background: #F9F9F9;
+    border-radius: 4px;
+}
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+@media (max-width: 1625px) {
+    .block1{
+
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+    .hq {
+        margin-left: 240px;
+    }
+}
+@media (max-width: 1425px) {
+    .block1{
+
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .hq {
+        margin-left: 140px;
+    }
+}
+@media (max-width: 1225px) {
+    .block1{
+
+        margin-left: 140px;
+        margin-right: 40px;
+    }
+    .hq {
+        margin-left: 140px;
+    }
+}
+@media (max-width: 1125px) {
+    .block1{
+
+        margin-left: 100px;
+        margin-right: 40px;
+    }
+    .hq {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1085px) {
+    .block1{
+
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .hq {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 974px) {
+    .block1{
+
+        margin-left:140px;
+        margin-right: 15px;
+    }
+    .hq {
+        margin-left: 140px;
+    }
+}
+@media (max-width: 850px) {
+    .block1{
+
+        margin-left:15px;
+        margin-right: 15px;
+    }
+    .hq {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .hq {
+padding: 0;
+        width: 20rem;
+        font-size: 24px;
+    }
+}
+
+.img{
+    padding-left: 24px;
+    padding-right:211px;
+    padding-top: 32px;
+}
+
+.qw{
+
+    width: 247px;
+    height: 60px;
+    padding-left: 24px;
+
+    margin-top: 32px;
+    font-family: 'Averta-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    color: #2E2E2E;
+}
+
+.lable{
+    width: 34px;
+    height: 21px;
+    padding-left: 24px;
+    padding-top: 25px;
+    font-family: 'Averta-Semibold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+@media (max-width: 320px) {
+    .block {
+        width: 295px !important;
+        height: 202px;!important;
+    }
+    .qw{
+        font-size: 16px;
+        margin-top: 17px;
+    }
+    .img{
+        width: 92% !important;
+    }
+    .lable{
+padding-top: 0;
+}
+}

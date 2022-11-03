@@ -1,3 +1,5 @@
+
+
 $("body").on("submit", ".form", function (e) {
     e.preventDefault();
     var _phone = $(this).find("#codtel").val();
@@ -18,3 +20,4 @@ $("body").on("submit", ".form", function (e) {
     return false;
 
 });
+
